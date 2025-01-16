@@ -25,39 +25,39 @@ A solução consiste nos seguintes componentes:
 
 No portal do Azure, crie um grupo de recursos para organizar os recursos do projeto: o Azure OpenAI e o Azure Translator.
 
-![images](../images/passo1.png)
+![images](./images/passo1.png)
 
-![passo1.1](../images/passo1.1.png)
+![passo1.1](./images/passo1.1.png)
 
 ### 2.2 Provisionar o Serviço Azure OpenAI
 
 Crie uma instância do serviço Azure OpenAI. Selecione a região East US, escolha um nome para a instância, e opte pela camada gratuita para começar.
 
-![passo2](../images/passo2.png)
+![passo2](./images/passo2.png)
 
-![passo2.1](../images/passo2.1.png)
+![passo2.1](./images/passo2.1.png)
 
 ### 2.3 Implantar o Modelo GPT-4 Mini
 
 No Azure OpenAI Studio, implante o modelo GPT-4 Mini, selecionando o "Modo Básico" e a opção "Standard" para a implantação. Guardar a chave de API e o endpoint do Azure OpenAI para utilização posterior.
 
-![passo3](../images/passo3.png)
+![passo3](./images/passo3.png)
 
-![passo3.1](../images/passo3.1.png)
+![passo3.1](./images/passo3.1.png)
 
 ### 2.4 Provisionar o Serviço Azure Translator
 
 Crie uma instância do serviço Azure Translator no mesmo grupo de recursos. Escolha a região East US para consistência, nomeie a instância e selecione a camada gratuita, que oferece tradução de até 2 milhões de caracteres.  
 
-![passo4](../images/passo4.png)                                                            
+![passo4](./images/passo4.png)                                                            
 
-![passo4.1](../images/passo4.1.png)
+![passo4.1](./images/passo4.1.png)
 
 ### 2.5 Obter a Chave de Assinatura e o Endpoint do Translator
 
 Acesse as chaves de assinatura e o endpoint do serviço Azure Translator. Anote essas informações, pois serão usadas para autenticar e interagir com o serviço.
 
-![passo5](../images/passo5.png)
+![passo5](./images/passo5.png)
 
 ## 3. Tradutor de Artigos - Primeira Parte do Projeto
 
